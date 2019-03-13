@@ -18,7 +18,20 @@ The .div files must then be copied into the directory mapminder/charts; also cop
 
 ## Libraries, frameworks, and dependencies
 Data processing and analysis is done using `pandas` and `statsmodels`. Maps are drawn using `plotly`, and formatting assistance is brought in via `bootstrap 4`. The full list of dependencies is:
-`python` v. 3.7 (>3.0 may work but is not tested), `django` v. 2.15 and python libraries, with versions used: `requests` v. 2.21.0, `pandas` v. 0.24.1, `statsmodels` v. 0.9.0, `plotly` v. 3.5.0.
+
+`python` v. 3.7 (>3.0 may work but is not tested) 
+
+`django` v. 2.15
+
+python libraries, with versions used:
+
+`requests` v. 2.21.0
+
+`pandas` v. 0.24.1
+
+`statsmodels` v. 0.9.0
+
+`plotly` v. 3.5.0
 
 ## Acknowledgements
 Generous advice and help were provided by Matthew Cooper and Alexander Burns of [Portland Code Guild](https://pdxcodeguild.com).
