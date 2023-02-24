@@ -8,7 +8,7 @@ date: 2019-03-05
 # Development and migration in maps and figures
 MapMinder delivers selected data related to economic/political development and human migration in cartographic and statistical form. 
 
-Much of the programming work takes place "before the back-end", in downloading and processing data, performing statistical analyses, and generating choropleth maps to display data. The main effort is to automate the data-acquisition, -mapping and -analysis steps. Three graphics and three data sets are constructed offline, including a graph from `R`'s `ggplot2`. 
+Much of the programming work is in downloading and processing data, performing statistical analyses, and generating choropleth maps to display data. The main effort is to automate the data-acquisition, -mapping and -analysis steps. Three graphics and three data sets are constructed offline, including a graph from `R`'s `ggplot2`. 
 
 To make this fully reproducible, it is necessary to do a little work by hand. In the data folder are seven files. The file master_data_download_make_maps.py downloads the data and generates maps with extensions .div. These are outputs from the plotly library. Three .csv files hold data that are not downloaded programatically but that are used in the final product. 
 
