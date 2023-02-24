@@ -14,7 +14,7 @@ To make this fully reproducible, it is necessary to do a little work by hand. In
 
 The .div output files are written by default into a ~/ -level directory named multi-maps/maps-divs. **You must change the line that indicates the working directory in the file master_data_download_make_maps.py to suit your system.** 
 
-The .div files must then be copied into the directory mapminder/charts; also copy the files data/mmr-mini-map.div and data/mnmr-mini-map-resid.div into mapminder/charts (he `R` graphic is included in the app's static files directory). Then cd into mapminder/ and run `manage.py get_data` through python (version 3.7 was used in development). This loads the map divs into the app's sqlite database and allows them to be served to a local server using `manage.py runserver`, which defaults to port 8000; view the resulting app by pointing your browser to localhost:8000.
+The .div files must then be copied into the directory mapminder/charts; also copy the files data/mmr-mini-map.div and data/mnmr-mini-map-resid.div into mapminder/charts (the `R` graphic is included in the app's static files directory). Then cd into mapminder/ and run `manage.py get_data` through python (version 3.7 was used in development). This loads the map divs into the app's sqlite database and allows them to be served via a local server using `manage.py runserver`, which defaults to port 8000; view the resulting app by pointing your browser to localhost:8000.
 
 ## Libraries, frameworks, and dependencies
 Data processing and analysis is done using `pandas` and `statsmodels`. Maps are drawn using `plotly`, and formatting assistance is brought in via `bootstrap 4`. The full list of dependencies is:
