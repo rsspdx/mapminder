@@ -6,7 +6,7 @@ date: 2019-03-05
 ---
 
 # Development and migration in maps and figures
-MapMinder is a Django app that delivers selected data related to economic/political development and human migration in cartographic and statistical form. 
+MapMinder delivers selected data related to economic/political development and human migration in cartographic and statistical form. 
 
 Much of the programming work takes place "before the back-end", in downloading and processing data, performing statistical analyses, and generating choropleth maps to display data. The main effort is to automate the data-acquisition, -mapping and -analysis steps. Three graphics and three data sets are constructed offline, including a graph from `R`'s `ggplot2`. 
 
@@ -33,7 +33,8 @@ python libraries, with versions used:
 
 `plotly` v. 3.5.0
 
+Data sources are listed and linked to directly in the app. 
+
 ## Acknowledgements
 Generous advice and help were provided by Matthew Cooper and Alexander Burns of [Portland Code Guild](https://pdxcodeguild.com).
 
-Data sources are listed and linked to directly in the app. 
